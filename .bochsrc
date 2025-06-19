@@ -1,0 +1,16 @@
+# 使用 32MB 内存
+megs: 32
+display_library: x
+# 设置 Bochs BIOS 与 VGA BIOS 路径
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+
+# 引导顺序：从软盘（a）启动
+boot: a
+
+# 插入软盘镜像（你的 boot.img）
+floppya: 1_44=boot.img, status=inserted
+
+
+# 崩溃时自动继续，避免手动输入
+#panic: action=ask
