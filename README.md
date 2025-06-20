@@ -22,5 +22,7 @@ bochs -qf  .bochsrc
 ```
 
 ## 文档
-+ 参考源码：https://github.com/yourtion/30dayMakeOS
++ 参考源码：
+  + https://github.com/yourtion/30dayMakeOS
+  + https://github.com/yourtion/YOS
 + 笔记：[notes](notes)
