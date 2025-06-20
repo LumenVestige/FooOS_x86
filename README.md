@@ -10,7 +10,8 @@ A simple test foo OS
 + 配置Cmake环境：  
 <img src="source/cmake.png" alt="cmake" style="width:50%;"/>
 + 编译boot.img镜像:<img src="source/build.png" alt="cmake" style="width:30%;"/>
-+ 加载boot.img测试 bochs -qf  .bochsrc  
++ 加载boot.img测试 `bochs -qf  .bochsrc ` 
+
 ## 文档
 + 参考源码：https://github.com/yourtion/30dayMakeOS
 + 笔记：[notes](notes)
