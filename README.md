@@ -7,9 +7,12 @@ A simple test foo OS
 + CMake Project Reload:右击[CMakeLists.txt](CMakeLists.txt),点击Reload CMake Project <img src="source/cmake_project_reload.png" alt="cmake_project_reload" style="width:30%;"/>
 + 配置编译链环境：  
 <img src="source/toolchain.png" alt="toolchain" style="width:50%;"/>
+
 + 配置Cmake环境：  
 <img src="source/cmake.png" alt="cmake" style="width:50%;"/>
+
 + 编译boot.img镜像:<img src="source/build.png" alt="cmake" style="width:30%;"/>
+
 + 加载boot.img测试 `bochs -qf  .bochsrc ` 
 
 ## 文档
