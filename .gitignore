@@ -2,3 +2,5 @@
 /.bash_history
 /build/
 /tmp/
+/cmake-build-debug/
+/cmake-build-debug-docker/
