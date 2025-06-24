@@ -1,9 +1,13 @@
+# Is Updating...
+
 # fooOs
 A simple test foo OS
 
 ## 环境安装
 + 执行 sh ./[docker_img_build.sh](docker_img_build.sh) 构建docker镜像
 + 执行 sh ./[docker_container_run_once.sh](docker_container_run_once.sh) 启动docker容器（包含bochs虚拟机以及交叉编译链环境）
+
+## 编译
 + CMake Project Reload:右击[CMakeLists.txt](CMakeLists.txt),点击Reload CMake Project:  
  <img src="source/cmake_project_reload.png" alt="cmake_project_reload" style="width:30%;"/>
 
@@ -18,7 +22,7 @@ A simple test foo OS
 
 + 加载boot.img测试:
 ```
-bochs -qf  .bochsrc
+  sh ./run.sh
 ```
 
 ## 文档

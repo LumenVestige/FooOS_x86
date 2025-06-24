@@ -9,7 +9,7 @@ vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
 boot: a
 
 # 插入软盘镜像（你的 boot.img）
-floppya: 1_44=boot.img, status=inserted
+floppya: 1_44=out/boot.img, status=inserted
 
 
 # 崩溃时自动继续，避免手动输入
