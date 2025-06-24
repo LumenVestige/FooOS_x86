@@ -20,7 +20,7 @@ A simple test foo OS
 + 编译boot.img镜像:  
 <img src="source/build.png" alt="cmake" style="width:30%;"/>
 
-+ 加载boot.img测试:
++ 加载boot.img测试（需要先确保已经执行了[docker_container_run_once.sh](docker_container_run_once.sh)，当前环境在docker容器中）:
 ```
   sh ./run.sh
 ```
