@@ -4,8 +4,8 @@
 A simple test foo OS
 
 ## 环境安装
-+ 执行 sh ./[docker_img_build.sh](docker_img_build.sh) 构建docker镜像
-+ 执行 sh ./[docker_container_run_once.sh](docker_container_run_once.sh) 启动docker容器（包含bochs虚拟机以及交叉编译链环境）
++ 执行 sh ./[docker_img_build.sh](docker_img_build_mac.sh) 构建docker镜像
++ 执行 sh ./[docker_container_run_once.sh](docker_container_run_once_mac.sh) 启动docker容器（包含bochs虚拟机以及交叉编译链环境）
 
 ## 编译
 + CMake Project Reload:右击[CMakeLists.txt](CMakeLists.txt),点击Reload CMake Project:  
@@ -20,7 +20,7 @@ A simple test foo OS
 + 编译boot.img镜像:  
 <img src="source/build.png" alt="cmake" style="width:30%;"/>
 
-+ 加载boot.img测试（需要先确保已经执行了[docker_container_run_once.sh](docker_container_run_once.sh)，当前环境在docker容器中）:
++ 加载boot.img测试（需要先确保已经执行了[docker_container_run_once.sh](docker_container_run_once_mac.sh)，当前环境在docker容器中）:
 ```
   sh ./run.sh
 ```
