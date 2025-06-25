@@ -1,11 +1,10 @@
-# 宿主机：只放行自己
-xhost -                               # 清空规则
+xhost -
 xhost +SI:localuser:$(id -un)
 
-# 容器：UID/GID 与宿主一致，并带上 Xauthority
 docker run -it --rm \
-  --user $(id -u):$(id -g) \
+  --user $(id -u) \
   -e DISPLAY=$DISPLAY \
+  -v $(pwd):/home/$(id -un) \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  -v /home:/home:ro \
+  -v /home/.Xauthority:/run/user/$(id -u)/.mutter-Xwaylandauth.FO7M82:ro \
   bochs-dev
